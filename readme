@@ -1,0 +1,4 @@
+Lab DAC based on :
+https://app.ph.qmul.ac.uk/wiki/ajm:teaching:arduino-pi:projects:arduino:dac-audio:dac
+The goal is to build a simple 8-bits DAC for the arduino uno 
+arduino uses PWM method to simulate an analog value
