@@ -19,11 +19,11 @@ void setup(){
  
 void loop(){
   digitalWrite(0, HIGH); // 1 : we start from the rightmost bit
-  digitalWrite(1, LOW);  // 1
+  digitalWrite(1, HIGH);  // 1
   digitalWrite(2, LOW);  // 0
   digitalWrite(3, LOW);  // 0
-  digitalWrite(4, HIGH); // 0
+  digitalWrite(4, LOW); // 0
   digitalWrite(5, HIGH); // 1
   digitalWrite(6, LOW);  // 0
-  digitalWrite(7, HIGH); // 0
+  digitalWrite(7, LOW); // 0
 }
