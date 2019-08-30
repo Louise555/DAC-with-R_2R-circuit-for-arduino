@@ -33,12 +33,11 @@ void loop(){
   for (int a=0;a<256;a++){
     PORTD = a;    //send out ramp to digital pins 0-7
     // delayMicroseconds(50); //wait 50us if using an oscilloscope
-    delay(100); //wait 100ms if using the serial port
+    delay(10); //wait 100ms if using the serial port
  
-    if (Serial.available())
-    {
+
       int DACout = analogRead(A0); 
       Serial.println(DACout);
-    }
+    
   }
 }
